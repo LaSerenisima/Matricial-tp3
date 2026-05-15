@@ -1,0 +1,20 @@
+[
+    {
+        "command": "C:\\Users\\di3g13\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.70201.0\\bin\\arm-none-eabi-gcc.exe -mthumb -mcpu=cortex-m3 -x assembler-with-cpp -DPLATFORMIO=60119 -DSTM32F103xB -DSTM32F1 -DF_CPU=72000000L -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis@2.50501.200527\\CMSIS\\Include -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Include -c -o .pio\\build\\genericSTM32F103C8\\FrameworkCMSIS\\gcc\\startup_stm32f103xb.o C:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\gcc\\startup_stm32f103xb.S",
+        "directory": "C:\\Users\\di3g13\\Desktop\\proyect\\Matricial-tp3",
+        "file": "C:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\gcc\\startup_stm32f103xb.S",
+        "output": ".pio\\build\\genericSTM32F103C8\\FrameworkCMSIS\\gcc\\startup_stm32f103xb.o"
+    },
+    {
+        "command": "C:\\Users\\di3g13\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.70201.0\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\genericSTM32F103C8\\FrameworkCMSIS\\system_stm32f1xx.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60119 -DSTM32F103xB -DSTM32F1 -DF_CPU=72000000L -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis@2.50501.200527\\CMSIS\\Include -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Include C:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\system_stm32f1xx.c",
+        "directory": "C:\\Users\\di3g13\\Desktop\\proyect\\Matricial-tp3",
+        "file": "C:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Source\\Templates\\system_stm32f1xx.c",
+        "output": ".pio\\build\\genericSTM32F103C8\\FrameworkCMSIS\\system_stm32f1xx.o"
+    },
+    {
+        "command": "C:\\Users\\di3g13\\.platformio\\packages\\toolchain-gccarmnoneeabi@1.70201.0\\bin\\arm-none-eabi-gcc.exe -o .pio\\build\\genericSTM32F103C8\\src\\main.o -c -Os -ffunction-sections -fdata-sections -Wall -mthumb -mcpu=cortex-m3 -DPLATFORMIO=60119 -DSTM32F103xB -DSTM32F1 -DF_CPU=72000000L -Iinclude -Isrc -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis@2.50501.200527\\CMSIS\\Include -IC:\\Users\\di3g13\\.platformio\\packages\\framework-cmsis-stm32f1\\Include src\\main.c",
+        "directory": "C:\\Users\\di3g13\\Desktop\\proyect\\Matricial-tp3",
+        "file": "src\\main.c",
+        "output": ".pio\\build\\genericSTM32F103C8\\src\\main.o"
+    }
+]
