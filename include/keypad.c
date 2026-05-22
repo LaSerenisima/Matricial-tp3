@@ -41,5 +41,5 @@ char teclas(void) {
         }
     }
 
-    return '\0';
+    return '-';
 }

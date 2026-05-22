@@ -1,6 +1,6 @@
 #include "keypad.h"
 #include "display7.h"
-#include "stm32f1xx.h"
+#include "stm32f103xb.h"
 
 int main(void) {
     iniciotecla(); 

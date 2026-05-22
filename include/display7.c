@@ -24,18 +24,18 @@ uint16_t botones(char c) {
 
 void segs7(void) {
 
-    RCC->APB2ENR |= RCC_APB2ENR_IOPBEN;
+    RCC->APB2ENR |= RCC_APB2ENR_IOPAEN;
 
-    GPIOB->CRH &= 0xF0000000; 
+    GPIOA->CRH &= 0xF0000000; 
     
-    GPIOB->CRH |= 0x02222222; 
+    GPIOA->CRH |= 0x02222222; 
 }
 
 void mostra(char c) {
     uint16_t patron = botones(c);
     
-    GPIOB->ODR &= ~(0x7F00); 
+    GPIOA->ODR &= ~(0x7F00); 
     
-    GPIOB->ODR |= (patron << 8); 
+    GPIOA->ODR |= (patron << 8); 
 }
 

@@ -1,7 +1,7 @@
 #ifndef display7_H
 #define display7_H
 
-#include "stm32f1xx.h"
+#include "stm32f103xb.h"
 
 // Ini puerto B
 void segs7(void);
